@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Everyday Cooking | Delicious Food & Fresh Ingredients</title>
+
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <!-- Navigation Bar -->
+    <header id="navbar">
+        <div class="nav-container">
+            <a href="#home" class="logo-box">
+                <div class="logo-icon">
+                    <i class="fa-solid fa-utensils"></i>
+                </div>
+                <div class="logo-text">
+                    <span style=" color: #fff;">EVERYDAY</span>
+                    <span style="color: var(--gold);">COOKING</span>
+                </div>
+            </a>
+
+            <!-- Desktop Links -->
+            <nav class="desktop-nav">
+                <a href="#home">Home</a>
+                <a href="#menu">Menu</a>
+                <a href="#about">About Us</a>
+                <a href="#reviews">Reviews</a>
+                <a href="#contact">Contact Us</a>
+            </nav>
+
+            <!-- Cart & Hamburger -->
+            <div class="nav-actions">
+                <button class="cart-btn">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    <span id="cart-badge">0</span>
+                </button>
+            </div>
+            
+        </div>
+
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-bg">
+            <img src="chiken.jpeg" alt="Food background">
+            <div class="hero-overlay"></div>
+        </div>
+        <div class="hero-container">
+            <h1>Welcome to <span>Everyday Cooking</span></h1>
+            <p class="subhead">Delicious Food, Fresh Ingredients, Unforgettable Taste.</p>
+            <p class="desc">Experience culinary excellence with our masterfully crafted vegetarian and non-vegetarian
+                dishes, prepared fresh daily in Anakapalle to satisfy your cravings.</p>
+            <div class="hero-buttons">
+                <a href="#menu" class="btn-gold">
+                    <span>Explore Our Menu</span>
+                    <i class="fa-solid fa-arrow-right"></i>
+                </a>
+                <a href="#contact" class="btn-outline">
+                    <span>Contact Us</span>
+                    <i class="fa-solid fa-phone"></i>
+                </a>
+            </div>
+
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <h3>100%</h3>
+                    <p>Fresh Ingredients</p>
+                </div>
+                <div class="stat-card">
+                    <h3>45+</h3>
+                    <p>Exquisite Dishes</p>
+                </div>
+                <div class="stat-card">
+                    <h3>4.9★</h3>
+                    <p>Customer Rating</p>
+                </div>
+                <div class="stat-card">
+                    <h3>Daily</h3>
+                    <p>Fresh Specials</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Menu Section -->
+    <section id="menu" class="section">
+        <div class="section-header">
+            <span>Discover Our Offerings</span>
+            <h2>Our Complete Menu</h2>
+            <p>Explore authentic dishes extracted from our kitchen. Add items to your cart and place your order
+                instantly!</p>
+        </div>
+        
+        <div class="filter-bar">
+            <div class="search-box">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <input type="text" placeholder="Search dishes (e.g. Butter Chicken, Soup)...">
+            </div>
+            <div class="category-tabs" id="category-tabs">
+                <button class="cat-btn active">All Items</button>
+                <button class="cat-btn">Soups</button>
+                <button class="cat-btn">Veg Starters</button>
+                <button class="cat-btn">Non-Veg Starters</button>
+                <button class="cat-btn">Curries</button>
+                <button class="cat-btn">Rotis</button>
+            </div>
+        </div>
+
+        <div class="food-container">
+            <div class="food-card">
+                <img src="chiken.jpeg" alt="Tomato Soup">
+                <h3>Tomato Soup</h3>
+                <p>Fresh and delicious tomato soup.</p>
+                <span>₹120</span>
+                <button class="add-btn">Add to Cart</button>
+            </div>
+
+            <div class="food-card">
+                <img src="chiken.jpeg" alt="Paneer Tikka">
+                <h3>Paneer Tikka</h3>
+                <p>Delicious grilled paneer with spices.</p>
+                <span>₹220</span>
+                <button class="add-btn">Add to Cart</button>
+            </div>
+
+            <div class="food-card">
+                <img src="chiken.jpeg" alt="Chicken 65">
+                <h3>Chicken 65</h3>
+                <p>Crispy and spicy chicken starter.</p>
+                <span>₹250</span>
+                <button class="add-btn">Add to Cart</button>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- About Us Section -->
+    <section id="about" class="section" >
+        <div class="about-grid">
+            <div class="about-img-box">
+                <img src="Restaurant Interior.png" alt="Everyday Cooking Restaurant Interior">
+            </div>
+            <div>
+                <span style="color: var(--gold);">OUR STORY</span>
+                <h2>About Everyday Cooking</h2>
+                <br>
+                <p>Welcome to <strong style="color: var(--gold);">Everyday Cooking</strong> in Anakapalle, your
+                    ultimate destination for wholesome, mouth-watering delicacies crafted with love and fresh local
+                    ingredients.</p>
+                <br>
+                <p>Whether you are craving warm soup, crispy starters, or rich South Indian and Indian curries paired
+                    with freshly baked rotis, our kitchen is dedicated to serving unforgettable taste in every bite. </p>
+                     
+                <div class="about-features">
+                    <div class="feature-item">
+                        <i class="fa-solid fa-leaf"></i>
+                        <div>
+                            <h4>Fresh Ingredients</h4>
+                            <p>Handpicked farm-fresh vegetables.</p>
+                        </div>
+                    </div>
+                    <div class="feature-item">
+                        <i class="fa-solid fa-utensils"></i>
+                        <div>
+                            <h4>Veg & Non-Veg</h4>
+                            <p>Catering to diverse preferences.</p>
+                        </div>
+                    </div>
+                    <div class="feature-item">
+                        <i class="fa-solid fa-heart"></i>
+                        <div>
+                            <h4>Authentic Taste</h4>
+                            <p>Traditional spice blends.</p>
+                        </div>
+                    </div>
+                    <div class="feature-item">
+                        <i class="fa-solid fa-face-smile"></i>
+                        <div>
+                            <h4>Warm Hospitality</h4>
+                            <p>Dedicated customer service.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Customer Reviews Section -->
+    <section id="reviews" class="section reviews-bg">
+        <div class="section-header">
+            <span>Testimonials</span>
+            <h2>What Our Customers Say</h2>
+            <p>Read genuine experiences from our valued patrons in Anakapalle.</p>
+        </div>
+
+       <div class="reviews-grid">
+            <div class="review-card">
+                <div class="stars">⭐⭐⭐⭐⭐</div>
+                <p>Very tasty food! I loved the Butter Chicken and Garlic Naan.</p>
+                <h4 style="color: rgba(209, 180, 14, 0.842);">Rahul Varma</h4>
+            </div>
+
+            <div class="review-card">
+                <div class="stars">⭐⭐⭐⭐⭐</div>
+                <p>The food was delicious, and the service was very good.</p>
+                <h4 style="color: rgba(209, 180, 14, 0.842);">Priya Sharma</h4>
+            </div>
+
+            <div class="review-card">
+                <div class="stars">⭐⭐⭐⭐⭐</div>
+                <p>Fresh food, great taste, and a wonderful experience!</p>
+                <h4 style="color: rgba(209, 180, 14, 0.842);">Aditya Kumar</h4>
+            </div>
+
+        </div>
+
+        <div class="form-box">
+            <div style="text-align: center; margin-bottom: 30px;">
+                <h2>Share Your Feedback</h2>
+                <br>
+                <i>We value your opinion and strive to improve your dining experience❤️.</i>
+            </div>
+            <form id="feedback-form">
+                <div class="form-row">
+                    <div class="form-group">
+                        <label>Customer Name *</label>
+                        <input type="text" placeholder="Enter your name " required >
+                    </div>
+                    <div class="form-group">
+                        <label>Email Address *</label>
+                        <input type="email" placeholder="Enter your email" required>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label>Star Rating (1–5) *</label>
+                    <select id="feedback-rating">
+                        <option value="5">★★★★★</option>
+                        <option value="4">★★★★☆</option>
+                        <option value="3">★★★☆☆</option>
+                        <option value="2">★★☆☆☆</option>
+                        <option value="1">★☆☆☆☆</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label>Your Feedback *</label>
+                    <textarea rows="4" required
+                        placeholder="Tell us about your experience..."></textarea>
+                </div>
+                <div style="text-align: center;">
+                    <button type="submit" class="btn-gold;">Submit Feedback</button>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <div class="section-header">
+            <span>Get in Touch</span>
+            <h2>Contact Everyday Cooking</h2>
+            <p>Have questions or want to visit us in Anakapalle? Reach out today!</p>
+        </div>
+
+        <div class="contact-grid;">
+            <div class="contact-grid">
+                <div class="contact-info-card">
+                    <div class="contact-icon"><i class="fa-solid fa-location-dot"></i></div>
+                    <div>
+                        <h4>Our Location</h4>
+                        <p>Everyday Cooking Restaurant<br>Main Road, Anakapalle<br>Andhra Pradesh, 531031</p>
+                    </div>
+                </div>
+
+                <div class="contact-info-card">
+                    <div class="contact-icon"><i class="fa-solid fa-phone"></i></div>
+                    <div>
+                        <h4>Phone Number</h4>
+                        <p>+91 7672080596</p>
+                        <a href="https://wa.me/917672080596" target="_blank" class="whatsapp-btn">
+                            <i class="fa-brands fa-whatsapp;"></i>
+                            <span>Chat on WhatsApp</span>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="contact-info-card">
+                    <div class="contact-icon"><i class="fa-solid fa-envelope"></i></div>
+                    <div>
+                        <h4>Email Address</h4>
+                        <p>contact@everydaycooking.com</p>
+                    </div>
+                </div>
+
+                <div class="contact-info-card">
+                    <div class="contact-icon"><i class="fa-solid fa-clock"></i></div>
+                    <div>
+                        <h4>Opening Hours</h4>
+                        <p>Monday – Sunday: 11:00 AM – 11:00 PM<br>
+                            <span style="font-size: 12px; color: var(--gold);">Open All Days for Dine-in & Takeaway</span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-grid">
+            <div class="footer-col";>
+                <a href="#home" class="logo-box" style="margin-bottom: 16px;">
+                    <div class="logo-icon">
+                        <i class="fa-solid fa-utensils"></i>
+                    </div>
+                    <div class="logo-text">
+                    <span style=" color: #fff;">EVERYDAY</span>
+                    <span style="color: var(--gold);">COOKING</span>
+                </div>
+                </a>
+                <p color: var(--text-muted);> Delicious Food, Fresh Ingredients, Unforgettable Taste in Anakapalle, AP (531031). </p>
+            </div>
+
+            <div class="footer-col">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#menu">Menu</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#reviews">Reviews</a></li>
+                    <li><a href="#contact">Contact Us</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <h4>Menu Categories</h4>
+                <ul>
+                    <li><a href="#menu">Soups (Veg & Non-Veg)</a></li>
+                    <li><a href="#menu">Veg Starters</a></li>
+                    <li><a href="#menu">Non-Veg Starters</a></li>
+                    <li><a href="#menu">Indian Curries</a></li>
+                    <li><a href="#menu">Rotis & Naans</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <h4>Stay Updated</h4>
+                <p color: var(--text-muted);>Subscribe for special offers and daily dish updates.</p>
+                <form >
+                    <input type="email" required placeholder="Your email address" style="margin-bottom:10px;">
+                    <button type="submit" class="btn-gold">Subscribe</button>
+                </form>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>&copy; 2026 Everyday Cooking (Anakapalle, AP 531031). All Rights Reserved.Designed by U.Malathi</p>
+            <div class="footer-links">
+                <p>Privacy Policy</p>
+                <p>Terms of Service</p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
